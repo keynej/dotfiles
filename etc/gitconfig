@@ -1,0 +1,18 @@
+[user]
+	name = keynej
+	email = keynej.lee@gmail.com
+[core]
+	excludesfile = .gitignore_global
+	editor = /usr/bin/vim
+[alias]
+	lg = log --graph --oneline --decorate --all
+[include]
+	path = .gitconfig_local
+[push]
+	default = simple
+[credential]
+	helper = cache
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
