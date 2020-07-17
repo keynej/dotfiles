@@ -6,6 +6,8 @@
 	editor = /usr/bin/vim
 [alias]
 	lg = log --graph --oneline --decorate --all
+	st = status
+	df = difftool
 [include]
 	path = .gitconfig_local
 [push]
